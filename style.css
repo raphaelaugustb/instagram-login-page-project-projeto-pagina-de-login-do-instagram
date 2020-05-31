@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+html,
+body {
+    height: 100%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+   
+    
+
+
+}
+
+
+/*All Content (Box 1 and 2)/Todo Conteudo (Caixa 1 e 2)*/
+
+.boximage{
+
+    float: left;
+    clear:both;
+    height:350px;
+    max-width:587px;
+    width:100%;
+    left:278px;
+    position: relative;
+    top:40px;
+    background-color:white;
+
+}
+
+
+
+.allcontent{
+
+  position: relative;
+  right:278px;
+  float:right;
+  clear: both;
+  bottom:307px;
+
+
+
+}
+
+/*Box Content1/Caixa com Conteudo1*/
+
+/*Box1/Caixa1*/
+.box1{
+    display:block;
+    max-width:350px;
+    width:100%;
+    height:380px;
+    margin:0 auto;
+    background-color:white;
+    margin-top:20px;
+    border:1px solid #cccccc;
+}
+/*Box1/Caixa1*/
+
+/*Approach Divs to the Logo/Aproximar as Divs da Logo*/
+.content{
+
+    position: relative;
+    bottom:5px;
+
+
+
+}
+/*Approach Divs to the Logo/Aproximar as Divs da Logo*/
+
+/*Instagram Logo/Logo do Instagram*/
+.logo{
+
+   position:relative;
+   left:84px;
+   top:35px;
+   height:50px;
+   width:173px;
+
+
+}
+/*Instagram Logo/Logo do Instagram*/
+
+
+/*Buttons/Botões*/
+
+/*Email,Password/Email,Senha*/
+.email,.senha{
+
+  width:264px;
+  height:38px;
+  border:1px solid #cccccc;
+  position:relative;
+  top:50px;
+  left:42px;
+  border-radius:3px;
+  font-size:12px;
+  padding-left:8px;
+  background-color:#F5F5F5;
+  font-family:-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+/*Email,Password/Email,Senha*/
+
+/*Approach the Divs/Aproximar as Divs*/
+.senha{
+
+    position: relative;
+    margin-top:-15px;
+    display:block;
+
+
+}
+/*Approach the Divs/Aproximar as Divs*/
+
+/*Login Button/Botão de Login*/
+.btn{
+
+    background-color:#009AFF;
+    color:white;
+    width:264px;
+    position:relative;
+    left:42px;
+    top:59px;
+    height:30px;
+    border-radius:5px;
+    border:1px #009AFF;
+   
+ 
+    
+}
+/*Login Button/Botão de Login*/
+
+/*Buttons/Botões*/
+
+/*OR/OU*/
+
+/*Line/Linha*/
+.linha{
+
+
+    height:1px;
+    width:130px;
+    background:#cccccc;
+   
+    
+    
+}
+/*Line/Linha*/
+
+/*Box*/
+.ou{
+
+    align-items:center;
+    display:flex;
+    height:15px;
+    justify-content:space-between;
+    position:relative;
+    top:65px;
+    margin:10px 42px 18px
+
+
+
+
+
+}
+/*Box*/
+
+
+/*Paragraph (OR)/Paragrafo (OU)*/
+.p{
+
+color:rgb(131, 131, 131);
+font-size: 13px;
+font-weight: 600;
+line-height: 15px;
+text-transform:uppercase;
+margin:0 20px;
+}
+/*Paragraph (OR)/Paragrafo (OU)*/
+
+/*OR/OU*/
+
+
+/*Facebook Login/Login pelo facebook*/
+.facebook{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    top:75px;
+
+
+}
+
+
+
+.entrar{
+
+    color:#385185;
+    font-weight:600;
+    margin-left:10px;
+    font-size:14px;
+
+
+}
+
+.imagelogo{
+
+width:16px;
+height:16px;
+
+}
+/*Facebook Login/Login pelo facebook*/
+
+
+/*Forgot The Password?/Esqueceu a Senha?*/
+.password{
+
+   
+    text-align:center;
+    position:relative;
+    top:70px;
+    display:block;
+    color:#385185;
+    text-decoration:none;
+    font-size: 12px;
+    line-height:14px;
+    margin-top:28px;
+
+}
+/*Forgot The Password?/Esqueceu a Senha?*/
+
+/*Box Content1*/
+
+/*Box Content2*/
+
+
+.box2{
+
+
+    max-width:350px;
+    width:100%;
+    margin:0 auto;
+    background-color:white;
+    margin-top:20px;
+    border:1px solid #cccccc;
+    height:60px;
+    position: relative;
+    bottom:10px;
+
+
+}
+
+
+.signup {
+    
+     margin:10px 0 20px;
+     text-align:center;
+     padding:25px 40px;
+     color:#262626;
+     font-size:14px;
+     position:relative;
+    bottom:15px;
+     
+
+}
+
+.sign{
+    color:#3897f0;
+    text-decoration:none;
+   
+
+
+}
+
+
+
+
+/*Box Content 2*/
+
+
+/*Box 3*/
+
+.box3{
+    max-width:350px;
+    width:100%;
+    height:auto;
+    margin:0 auto;
+
+
+}
+
+/*Get/Obtenha*/
+.get{
+
+    text-align:center;
+    font-size:13.75px;
+    margin-top:7px;
+
+
+}
+/*Get/Obtenha*/
+
+/*Icon1,Icon2/Icone 1,Icone2*/
+.icon1,.icon2{
+
+    width:136px;
+    height:40px;
+    display:inline-block;
+    position: relative;
+    left:30px;
+    top:20px;
+    
+
+}
+/*Icon1,Icon2/Icone 1,Icone2*/
+
+/*Box 3*/
+
+
+/*All Content (Box 1,2,3)/Todo Conteudo (Caixa 1,2,3)*/
+
+/*Informações Adicionais/Additional Informations*/
+
+.informaçoes{
+    
+   display: block;
+   position: relative;
+   width: 100%;
+   width: auto;
+   position: relative;
+   white-space: nowrap;
+   top:700px;
+   right:400px;
+    
+    
+}
+
+.informaçoes ul{
+
+    width:100%;
+    height:75px;
+
+
+
+}
+
+.informaçoes ul li{
+
+font-size:12px;
+font-weight:600;
+display:inline;
+margin-bottom: 7px;
+margin-right:7px;
+list-style: none;
+color:#385185;
+
+
+
+
+
+}
+
+.of{
+
+    font-size:12px;
+    font-weight:600px;
+    position: relative;
+    bottom:50px;
+    color:gray;
+
+
+
+
+}
+
+/*Informações Adicionais/Additional Informations*/
